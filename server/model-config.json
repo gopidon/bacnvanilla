@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "user": {
+    "dataSource": "bacnvanilla"
+  },
+  "AccessToken": {
+    "dataSource": "bacnvanilla",
+    "public": false
+  },
+  "acl": {
+    "dataSource": "bacnvanilla",
+    "public": false
+  },
+  "roleMapping": {
+    "dataSource": "bacnvanilla",
+    "public": false
+  },
+  "role": {
+    "dataSource": "bacnvanilla",
+    "public": false
+  },
+  "test": {
+    "dataSource": "bacnvanilla",
+    "public": true
+  },
+  "userIdentity": {
+    "dataSource": "bacnvanilla",
+    "public": true
+  },
+  "userCredential": {
+    "dataSource": "bacnvanilla",
+    "public": true
+  }
+}
